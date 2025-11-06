@@ -24,10 +24,3 @@ def login(pwsistem):
         else:
             print(f"Password salah. Sisa kesempatan: {uinput}")
             uinput -= 1
-
-def main():
-    pwsistem = "Latihan"
-    intro()
-    login(pwsistem)
-
-main()
