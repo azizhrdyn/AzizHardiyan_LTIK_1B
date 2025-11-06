@@ -2,7 +2,7 @@ def intro():
     print("=== APLIKASI ADMINISTRASI SEKOLAH ===")
     print("Username: SMAN 1 Karawang")
     print()
-
+    
 def login(pwsistem):
     uinput = 2 
 
@@ -20,7 +20,7 @@ def login(pwsistem):
         elif pw == pwsistem:
             print("Akses diterima. Selamat datang di aplikasi.")
             return True 
-        
+
         else:
             print(f"Password salah. Sisa kesempatan: {uinput}")
             uinput -= 1
